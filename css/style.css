@@ -1203,7 +1203,7 @@ footer .foot-im .content .social p{
 }
 @media (max-width: 937px){
     footer .foot-im .content .social p{
-        width: 30%;
+        width: 35%;
         margin: 0 auto;
     }
 }
@@ -1217,6 +1217,7 @@ footer .foot-im .content p{
     font-size: 20px;
     color: #fff;
     text-transform: capitalize;
+    text-align: center;
 }
 footer .foot-im .content p span{
     color: var(--prim-color);
