@@ -1207,6 +1207,12 @@ footer .foot-im .content .social p{
         margin: 0 auto;
     }
 }
+@media (max-width: 500px){
+    footer .foot-im .content .social p{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
 footer .foot-im .content .social i{
     font-size: 18px;
     color: #fff;
