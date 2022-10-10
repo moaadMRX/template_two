@@ -301,7 +301,7 @@ header  nav .serch i{
     content: "";
     position: absolute;
     width: 60%;
-    height: 2px;
+    height: 2px !important;
     background-color: black;
     bottom: 0;
     left: 50%;
@@ -314,17 +314,22 @@ header  nav .serch i{
 .special-txt .text h2::after{
     content: "";
     position: absolute;
-    width: 8px;
-    height: 8px;
-    bottom: -8px;
+    width: 6px;
+    height: 6px;
+    bottom: -7px !important;
     background-color: #fff;
-    border: 1px solid #000;
+    border: 2px solid #000 ;
+    border-radius: 50%;
     left: 50%;
     transform: rotate(45deg) translateX(-50%);
     -webkit-transform: rotate(45deg) translateX(-50%);
     -moz-transform: rotate(45deg) translateX(-50%);
     -ms-transform: rotate(45deg) translateX(-50%);
     -o-transform: rotate(45deg) translateX(-50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 .special-txt .text p{
     text-transform: capitalize;
@@ -479,9 +484,9 @@ header  nav .serch i{
     align-items: center;
 }
 .portfolio .links ul li{
-    padding: 12px 20px;
+    padding: 10px 20px;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: normal;
 }
 .portfolio .links ul li.active{
@@ -651,7 +656,7 @@ header  nav .serch i{
 .number-section .image img{
     position: relative;
     margin: -80px;
-    bottom: -60px;
+    bottom: -20px;
     max-width: 100%;
     
 }
@@ -752,8 +757,7 @@ header  nav .serch i{
     text-transform: uppercase;
     font-weight: normal;
     color: var(--second-color);
-    letter-spacing: 1.5px;
-    line-height: 1.5;
+    line-height: 1.2;
     margin: 0 0 40px;
 }
 .our-skills .testimonials{
@@ -785,7 +789,7 @@ header  nav .serch i{
 }
 .our-skills .testimonials .content .text{
     border-bottom: 1px solid #ccc;
-    line-height: 1.7;
+    line-height: 1.8;
 }
 .our-skills .testimonials .content .text > p{
      text-align: right;
@@ -819,7 +823,7 @@ header  nav .serch i{
 }
 .our-skills  .pro-holder > h4{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 10px;
 
